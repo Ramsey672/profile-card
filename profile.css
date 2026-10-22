@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.card{
+    height: 100%;
+    text-align: center;
+    margin:80px ;
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 50px;
+    background-color: grey;
+    border-right: 60px;
+    display: inline-block;
+    
+    
+}
+.Image{
+    width: 150px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 50px;
+    font-weight: bolder;
+    color: blue;
+}
+.role{
+    font-size: medium;
+    color: red;
+    font-style: italic;
+}
+.bio{
+    padding: 10px;
+    margin: 16px;
+    font-size: medium;
+    color: brown;
+}
+.hire{
+    padding:20px;
+    margin: 40px;
+    background-color: blue;
+    color: red;
+    border: 20;
+    border-radius: 6px;
+    font-size: 17px;
+    display: inline-block;
+    object-fit: cover;
+}
